@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap')
+
+:root {
+    --primary-color: #FFD885
+    --secondary-color: #90A33E
+    --accent1-color: #994E33
+    --accent2-color: #2D4462
+
+    --heading-font: Bebas Neue, serif;
+    --paragraph-font: PT Sans, serif;
+
+    --nav-background-color: 
+    --nav-link-color:
+    --nav-hover-link-color: 
+    --nav-hover-background-color:
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+    font-family: var(--paragraph-font);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--paragraph-font);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+section {
+    background-color: var(--primary-color);
+    color: #ffd885;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
