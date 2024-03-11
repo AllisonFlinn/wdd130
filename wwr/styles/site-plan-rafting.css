@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
 :root {
-    --primary-color: #FFD885
-    --secondary-color: #90A33E
-    --accent1-color: #994E33
-    --accent2-color: #2D4462
+    --primary-color: #FFD885;
+    --secondary-color: #90A33E;
+    --accent1-color: #994E33;
+    --accent2-color: #2D4462;
 
-    --heading-font: Bebas Neue, serif;
-    --paragraph-font: PT Sans, serif;
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'PT Sans', sans-serif;
 
     --nav-background-color: 
     --nav-link-color:
@@ -23,7 +23,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: var(--paragraph-font);
+    color: var(--accent1-color);
 }
 
 header {
