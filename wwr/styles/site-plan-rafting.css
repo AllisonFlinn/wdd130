@@ -9,10 +9,10 @@
     --heading-font: 'Bebas Neue', sans-serif;
     --paragraph-font: 'PT Sans', sans-serif;
 
-    --nav-background-color: 
-    --nav-link-color:
-    --nav-hover-link-color: 
-    --nav-hover-background-color:
+    --nav-background-color: #90A33E; 
+    --nav-link-color:#2D4462;
+    --nav-hover-link-color:#FFFFFF; 
+    --nav-hover-background-color: #994E33;
 }
 
 body {
