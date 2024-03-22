@@ -4,17 +4,28 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 nav {
     background-color: #BBC2E2;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color:black;
     display: block;
     padding: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
 }
 h1 {
     color: #0C1618;
+    border-bottom: solid;
 }
 main img {
     width: 150px;
@@ -27,28 +38,22 @@ main img {
 p {
     padding: 0;
 }
-main {
-  max-width: 840px;  
-}
 
 ul {
-    width: 40rem;
+    width: 20rem;
+}
+.box a {
+    text-decoration: none;
 }
 
-aside {
-    width: 40rem;
-    text-align: center;
-    position: relative;
-}
-aside image {
-    width: 200px;
-    height: auto;
+.box img {
+    width:100%;
 }
 
 aside h2 {
    position: absolute;
    top: 30px;
-   left: 300px; 
+   left: 140px; 
 }
 
 footer {
@@ -66,3 +71,21 @@ footer {
     color: #000;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+
+aside {
+    width: 20rem;
+    height: auto;
+    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
